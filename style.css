@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Configuração do header */ 
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    border: none;
+    border-bottom: 2px solid rgba(134, 131, 131, 0.2);
+    width: 100vw;
+    height: 75px;
+}
+
+header div #logoImg {
+    margin: 0px 0px 0px 20px;
+}
+
+header div #btn-products {
+    margin: 0px 20px 0px 0px;
+    width: 150px;
+    height: 40px;
+    border-radius: 4%;
+    background-color: rgba(10, 153, 254, 0.1);
+    color: #0A99FE;
+    font-size: 16px;
+}
+
+header div #btn-products:hover {
+    margin: 0px 20px 0px 0px;
+    width: 150px;
+    height: 40px;
+    border-radius: 4%;
+    background-color: rgb(10, 153, 254);
+    color: #FFFFFF;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+header div #btn-contact {
+    margin: 0px 20px 0px 0px;
+    width: 150px;
+    height: 40px;
+    border-radius: 4%;
+    background-color: rgba(10, 153, 254, 0.1);
+    color: #0A99FE;
+    font-size: 16px;
+}
+
+header div #btn-contact:hover {
+    margin: 0px 20px 0px 0px;
+    width: 150px;
+    height: 40px;
+    border-radius: 4%;
+    background-color: rgb(10, 153, 254);
+    color: #FFFFFF;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+/* Configuração dos Cards */ 
+
+main {
+    display: flex;
+    width: 1200px;
+    height: 90vh;
+    align-items: center;
+    flex-direction: column;
+}
+
+section {
+    margin: 20px 0px;
+    width: 950px;
+}
+
+section div h2 {
+    margin: 0px 10px 10px;
+    font-size: 20px;
+}
+
+section div ul {
+    display: flex;
+    padding: 15px 0px;
+    list-style-type: none;
+    justify-content: flex-start;
+    overflow-x: auto;
+}
+
+section div ul li {
+    margin: 0px 10px;
+}
+
+section div ul li div {
+    width: 207px;
+    height: 300px;
+    text-align: center;
+    border-top-right-radius: 10%;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 3%;
+    border-bottom-left-radius: 3%;
+    background-color: #f8f8f8;
+}
+
+section div ul li div .imgItem {
+    width: 207px;
+    height: 215px;
+    border: none;
+    border-top-right-radius: 10%;
+    border-top-left-radius: 10%;
+}
+
+section div ul li div .tittleItem {
+    margin: 10px 0px;
+    font-size: 20px;
+}
+
+section div ul li div .descriptionItem{
+    font-size: 16px;
+}
